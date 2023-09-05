@@ -2,19 +2,22 @@
 <html>
     <head>
         <title>script</title>
+        <link rel="stylesheet" href="index.css" >
     </head>
 <body>
 
 <h2>My First JavaScript</h2>
 
-<button type="button" onclick="document.getElementById('time').innerHTML = Date()">
+<button type="button" onclick="myTime()" >
 time</button>
 
 <p id="time"></p>
 <h1>bulb on and off</h1>
-<button type="button" onclick="document.getElementById('myBulb').src='images/bulbon.gif' ">Bulb ON</button>
+<button class="bulbonbtn" type="button" onclick="myBulbOn()">Bulb ON</button>
 <img id="myBulb" src="images/bulboff.gif" style="width: 100px;">
-<button type="button" onclick="document.getElementById('myBulb').src='images/bulboff.gif' ">Bulb oFF</button>
+<button class="bulboffbtn" type="button" onclick="myBulbOff()">Bulb oFF</button>
 
+
+<script src="index.js"></script>
 </body>
 </html> 
