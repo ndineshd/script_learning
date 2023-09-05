@@ -1,0 +1,14 @@
+.bulbonbtn {
+    background-color: rgb(16, 190, 16);
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.bulboffbtn {
+    background-color: rgb(230, 53, 53);
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
